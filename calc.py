@@ -19,8 +19,7 @@ def divide(num1, num2):
 print("Please select operation -\n" \ 
 		"1. Add\n" \ 
 		"2. Subtract\n" \ 
-		"3. Multiply\n" \ 
-		"4. Divide\n") 
+		"3. Multiply\n" \ )
 
 
 # Take input from the user 
@@ -41,8 +40,5 @@ elif select == '3':
 	print(number_1, "*", number_2, "=", 
 					multiply(number_1, number_2)) 
 
-elif select == '4': 
-	print(number_1, "/", number_2, "=", 
-					divide(number_1, number_2)) 
 else: 
 	print("Invalid input") 
